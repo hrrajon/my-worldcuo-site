@@ -173,7 +173,6 @@ body{
 
 /* UpComming match */
 .upcoming{
-    margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 24px;
@@ -183,6 +182,8 @@ body{
     background-color: whitesmoke;
     border-radius: 10px;
     text-align: center;
+    width: 300px;
+    padding: 10px;
 }
 .match{
     display: flex;
@@ -192,7 +193,7 @@ body{
     
 }
 .match img{
-    width: 25%;
+    width: 45%;
 }
 
 /* Responsive website */
